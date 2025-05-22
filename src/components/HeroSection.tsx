@@ -4,8 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&q=80')] bg-cover bg-center opacity-20"></div>
+    <section className="relative py-20 md:py-32 overflow-hidden bg-luxury-dark">
       <div className="container-luxury relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="gradient-text mb-6">Timeless Elegance</h1>
